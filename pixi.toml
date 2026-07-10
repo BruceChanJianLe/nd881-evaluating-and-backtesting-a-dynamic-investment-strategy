@@ -1,0 +1,17 @@
+[workspace]
+name = "Udacity AI Trading Strategies - Project2"
+version = "0.1.0"
+description = "Evaluating and Backtesting a Dynamic Investment Strategy"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+python = "3.12.*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+yfinance = "*"
+jupyter = "*"
+
+[tasks]
+lab = { cmd = "jupyter lab --no-browser --port=7772", description = "Launch Jupyter Lab."}
